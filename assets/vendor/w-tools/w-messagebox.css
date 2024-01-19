@@ -1,0 +1,68 @@
+#WMessageContainerDiv{
+	top:10px;
+	right:10px;
+	position: fixed;
+	width: 250px;
+	/*background-color: beige;*/
+}
+
+.WMessageInfo{
+	color: #0c5460;
+	background-color: #7adef0;
+	padding: .75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid  #1d8df5;
+	border-radius: .25rem;
+	transition: 1s;
+	text-align: center;
+}
+
+.WMessageInfo:hover{
+	background-color: #7adef034;
+}
+
+
+.WMessageWarning{
+	color: #856404;
+	background-color: #fff3cd;
+	padding: .75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid  #ffeeba;
+	border-radius: .25rem;
+	transition: 1s;
+	text-align: center;
+}
+
+.WMessageWarning:hover{
+	background-color: #fff3cd21;
+}
+
+.WMessageSuccess{
+	color: #155724;
+	background-color: #a8ebb7;
+	padding: .75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid  #01e736;
+	border-radius: .25rem;
+	transition: 1s;
+	text-align: center;
+}
+
+.WMessageSuccess:hover{
+	background-color: #a8ebb728;
+}
+
+.WMessageError{
+	color: #721c24;
+	background-color: #e7a4aa;
+	padding: .75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid  #ec1228;
+	border-radius: .25rem;
+	transition: 1s;
+	text-align: center;
+}
+
+.WMessageError:hover{
+	background-color: #e7a4aa25;
+}
